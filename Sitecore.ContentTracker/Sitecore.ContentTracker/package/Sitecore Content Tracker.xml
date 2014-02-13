@@ -1,0 +1,118 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Content Tracker</PackageName>
+      <Author>Adam Conn</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>This module allows you to assign goals, page events and profiling to one item and have another item use the settings assigned to the first item.
+
+For example, you can apply profiling to an item that represents a product category and have Sitecore use the profiling for all items that reference the product category item.</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/Products/{8CA421D9-5F3F-4340-AA2E-0283DBDBBAC3}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Products/Book/{486E1325-CD06-4A0F-91BD-65D0210A61F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Products/DVD/{640D7134-C112-4CCD-9B71-D2962494C008}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Products/Magazine/{E80CD0C7-549F-40C7-AC6B-3CC326E831E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Products/Newspaper/{7F3B3924-4A0B-4B6B-BDA9-618B37420D32}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Product Categories/{5285EF75-D933-4384-88F0-376001A0F032}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Product Categories/Daily/{2EAB19AC-1BB9-49C5-AA1D-4BCAB1307566}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Product Categories/Media/{14FD5752-2469-4418-A57C-8BB110CD7D0C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Product Categories/Printed/{15F8FFA3-4E6F-4EB0-A90D-03FDD8330776}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product Category/__Standard Values/{25CBCCD8-481B-4B91-9025-0934FBFE83C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product Category/{D20B3715-1DED-40AB-99D7-EEEE99010B2D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product Category/Data/{6B84D858-6CB2-496D-8005-996DD86935D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product Category/Data/Name/{E088ECFF-B372-45A1-BA89-2C25B9B1A75B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product/__Standard Values/{A3D68886-50D7-4B52-8E92-16E1A542777E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product/{63E064E2-9194-4D7A-A8E1-A6679389D7BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product/Data/{9C0EA8A9-E618-4FCA-8BDB-B877BC9269D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product/Data/Categories/{F02287BE-7DC5-4AB2-8CFC-5EEB5353BD5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Product/Data/Name/{8E234420-9BB6-43A4-9C95-35920399CB16}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Content Tracker/{8BDE7A4A-F8D1-4857-9469-6EAB2A8D7B5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Content Tracker/Rules/{171602C1-0EFC-458A-8D09-42BF84E69D98}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Content Tracker/Rules/Product Tracking/{C4DEFFB6-6EE4-4BD7-A1DF-146BE1E13098}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Content Tracker/{7F4C9ECE-7B61-46A6-8B31-902FB222F0FD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Content Tracker/Rules/{36F11093-9C6D-462F-B119-23A2DD61694E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Content Tracker/Tags/{222F7E3B-A42A-4662-BF41-FE55847D925D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Content Tracker/Tags/Default/{FF7B7697-C5A1-433D-8F20-785B85A0ABD4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/{EFED4B88-4542-4CF4-92D3-61470BE11CC0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/Apply Tracking From Parent/{91831846-0217-4E59-B93B-3C3F36AE20DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/Apply Tracking from Field/{1449AEFA-2C89-44D8-AA84-0E0FE2AC492A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/Tags/{4DFA7C48-280D-4A3D-AB7B-FD26C2FFDC10}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/Tags/Default/{9D513BC6-9912-4356-A953-C245E57DCAFB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Content Tracker/Visibility/{D755EC3E-60CF-40CF-87F1-97903BA3FE42}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/{43E40163-FDE5-4EEA-9CEB-4C88C06A79C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/{B1345E2A-7C3A-4A78-9328-498E4D8BF06A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/Data/{72430E67-D642-43A3-9096-B926BE26C7EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/Data/Rules/{D3FCC04E-77C2-4DE2-A055-8787DB47AC11}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Content Tracker/{A46C142A-0749-4D9A-96C9-F17A6D6B534C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Content Tracker/Visibility/{2C8367C7-FDC6-49C3-899D-02F6CA56E12E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/{43E40163-FDE5-4EEA-9CEB-4C88C06A79C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/{B1345E2A-7C3A-4A78-9328-498E4D8BF06A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/Data/{72430E67-D642-43A3-9096-B926BE26C7EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/Data/Disabled/{30D52883-92AC-45A8-9BF3-F1A255C859F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Content Tracker/Content Tracker Configuration/Data/Rules/{D3FCC04E-77C2-4DE2-A055-8787DB47AC11}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.ContentTracker.config</x-item>
+        <x-item>/bin/Sitecore.ContentTracker.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

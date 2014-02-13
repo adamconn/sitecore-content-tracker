@@ -1,0 +1,4 @@
+C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.ContentTracker\Sitecore.ContentTracker\bin\Debug\Sitecore.ContentTracker.dll
+C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.ContentTracker\Sitecore.ContentTracker\bin\Debug\Sitecore.ContentTracker.pdb
+C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.ContentTracker\Sitecore.ContentTracker\obj\Debug\Sitecore.ContentTracker.dll
+C:\Users\adc\Documents\Visual Studio 2013\Projects\Sitecore.ContentTracker\Sitecore.ContentTracker\obj\Debug\Sitecore.ContentTracker.pdb

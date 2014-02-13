@@ -1,0 +1,4 @@
+c:\users\adc\documents\visual studio 2013\Projects\Testing.Profiles\Testing.Profiles\bin\Debug\Testing.Profiles.dll
+c:\users\adc\documents\visual studio 2013\Projects\Testing.Profiles\Testing.Profiles\bin\Debug\Testing.Profiles.pdb
+c:\users\adc\documents\visual studio 2013\Projects\Testing.Profiles\Testing.Profiles\obj\Debug\Testing.Profiles.dll
+c:\users\adc\documents\visual studio 2013\Projects\Testing.Profiles\Testing.Profiles\obj\Debug\Testing.Profiles.pdb
